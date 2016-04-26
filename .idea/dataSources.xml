@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="777969109">
+    <data-source source="LOCAL" name="H2 - h2" uuid="cccbb97f-1c69-47e8-957c-2829e0e1cb62">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:file:C:/db/h2</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc" uuid="87853383-2b1c-4fd5-a9c9-f6a06be6b170">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/core/src/main/resources/jdbc.properties</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/Project</jdbc-url>
+      <explain-plan-config>
+        <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
+      </explain-plan-config>
+    </data-source>
+    <data-source source="LOCAL" name="dataSource" uuid="fe4d973e-2549-44d7-93a1-2052eab19035">
+      <driver-ref>67897bb2-4ede-4c05-994c-5796a1ef413b</driver-ref>
+      <imported>true</imported>
+      <configured-by-url>true</configured-by-url>
+      <remarks>$PROJECT_DIR$/core/src/main/resources/tutor-core.xml</remarks>
+      <jdbc-driver>null</jdbc-driver>
+      <jdbc-url>org.postgresql.Driver</jdbc-url>
+      <explain-plan-config>
+        <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
+      </explain-plan-config>
+    </data-source>
+  </component>
+</project>

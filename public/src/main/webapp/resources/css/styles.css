@@ -1,0 +1,50 @@
+html {
+    background: url('../images/bg.jpg') no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+body {
+    /* mobile browsers */
+    min-height: 100%;
+}
+
+/* Дополнительные стили для страницы. */
+body {
+    font: 14px/1.3 'Segoe UI', Arial, sans-serif;
+}
+
+a {
+    color: #313131;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.panel {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    background: url('../images/transparent.png') repeat;
+}
+
+.panel h2 {
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.panel .mblog {
+    position: absolute;
+    right: 30px;
+    top: 16px;
+    font-size: 20px;
+}

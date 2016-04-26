@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="H2 - h2" uuid="cccbb97f-1c69-47e8-957c-2829e0e1cb62">
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <schema-pattern>TEST.PUBLIC</schema-pattern>
+      <default-schemas>TEST.PUBLIC</default-schemas>
+    </data-source>
+    <data-source name="jdbc" uuid="87853383-2b1c-4fd5-a9c9-f6a06be6b170">
+      <first-sync>true</first-sync>
+      <user-name>postgres</user-name>
+      <user-password>df9bdf98df99df9e</user-password>
+    </data-source>
+    <data-source name="dataSource" uuid="fe4d973e-2549-44d7-93a1-2052eab19035">
+      <first-sync>true</first-sync>
+      <user-name>${jdbc.databaseurl}</user-name>
+      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
+    </data-source>
+  </component>
+</project>
